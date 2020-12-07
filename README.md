@@ -1,2 +1,2 @@
 # archscript
-My personal bash script to install packages and configure arch on a new system.
+My personal bash script to install packages and configure arch linux on a new system.
