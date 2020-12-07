@@ -2,6 +2,8 @@
 #Bash script to install packages and make configurations on a new system
 #Place files in home directory before you run this script
 
+#This is a test
+
 #Run these commands to generate new package lists
 #pacman -Qqen > pkglist.txt
 #pacman -Qqem > localpkglist.txt
