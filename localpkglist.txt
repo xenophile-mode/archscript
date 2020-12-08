@@ -1,0 +1,16 @@
+aconfmgr-git
+auracle-git
+buku
+dmenu-extended-git
+gtypist
+ly
+nyxt-browser-git
+rtorrent-ps
+sam-git
+sic
+soulseekqt
+windscribe-cli
+yay-git
+
+
+
