@@ -34,11 +34,16 @@ sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
 git clone git://git.suckless.org/st ~/.local/src/st
 git clone git://git.suckless.org/dwm ~/.local/src/dwm
+git clone git://git.suckless.org/st ~/.local/src/slstatus
 cd ~/.local/src/st
 make clean
 sudo make install
 cd
 cd ~/.local/src/dwm
+make clean
+sudo make install
+cd
+cd ~/.local/src/slstatus
 make clean
 sudo make install
 cd
@@ -70,16 +75,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 #Configure dwm
 #Configure st
 #Configure text editors
-
-
-#Install and enable rc shell
-#git clone https://github.com/rakitzis/rc
-#cd rc
-#./bootstrap
-#sh configure --with-edit=readline
-#make
-#sudo make install
-#sudo chsh --shell /home/xenophile/rc xenophile
 
 exec bash
 
