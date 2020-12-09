@@ -26,8 +26,7 @@ cd
 
 #Install pacaur and auracle-git dependancy for pacaur
 echo '###Installing pacaur and dependancies..'
-yay -S aconfmgr-git auracle-git buku dmenu-extended-git gtypist ly nyxt-browser-git rtorrent-ps sam-git sic soulseekqt windscribe-cli
-
+yay -S --needed --noconfirm - < ~/localpkglist.txt
 
 #Install suckless software
 echo '###Installing suckless softwarei..'
