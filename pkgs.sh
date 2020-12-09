@@ -73,6 +73,15 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 
 #Configure dwm
+cd archscript/dwm
+cp config.h .local/src/dwm
+cd
+cd .local/src/dwm
+sudo make install
+
+
+
+
 #Configure st
 #Configure text editors
 
