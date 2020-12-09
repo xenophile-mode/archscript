@@ -78,7 +78,11 @@ cp config.h .local/src/dwm
 cd
 cd .local/src/dwm
 sudo make install
+cd 
 
+#Configure xprofile
+cp /home/$USER/archscript/.xprofile /home/$USER
+chmod +x .xprofile
 
 
 
