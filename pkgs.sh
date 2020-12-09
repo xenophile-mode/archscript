@@ -78,7 +78,10 @@ cp config.h .local/src/dwm
 cd
 cd .local/src/dwm
 sudo make install
-cd 
+cd
+cd .local/src/dwm
+git apply st-scrollback-0.8.4.diff
+sudo make install
 
 #Configure xprofile
 cp /home/$USER/archscript/.xprofile /home/$USER
