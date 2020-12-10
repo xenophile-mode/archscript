@@ -1,8 +1,5 @@
 #!/bin/bash/
-#Bash script to install packages and make configurations on a new system
-#Place files in home directory before you run this script
-
-#This is a test
+#Bash script to install packages and configure a new system.
 
 #Run these commands to generate new package lists
 #pacman -Qqen > pkglist.txt
@@ -29,7 +26,7 @@ echo '###Installing pacaur and dependancies..'
 yay -S --needed --noconfirm - < ~/localpkglist.txt
 
 #Install suckless software
-echo '###Installing suckless softwarei..'
+echo '###Installing suckless software..'
 sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
 git clone git://git.suckless.org/st ~/.local/src/st
@@ -94,6 +91,10 @@ chmod +x .xprofile
 
 #Configure Grub
 cp /home/$USER/archscript/dotfiles/grub /etc/default
+
+#Configure .bashrc
+cp /home/$USER/archscript/dotfiles/.bashrc /home/$USER
+
 
 
 
