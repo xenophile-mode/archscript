@@ -1,6 +1,7 @@
 aconfmgr-git
 auracle-git
 buku
+castor-git
 dmenu-extended-git
 dwmbar-git
 gtypist
