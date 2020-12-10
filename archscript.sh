@@ -73,7 +73,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 
 #Configure dwm
-cd archscript/dwm
+cd archscript/dotfiles/dwm
 cp config.h .local/src/dwm
 cd
 cd .local/src/dwm
@@ -84,13 +84,18 @@ git apply st-scrollback-0.8.4.diff
 sudo make install
 
 #Configure xprofile
-cp /home/$USER/archscript/.xprofile /home/$USER
+cp /home/$USER/archscript/dotfiles/.xprofile /home/$USER
 chmod +x .xprofile
 
 
-
+#Configure slstatus
 #Configure st
 #Configure text editors
+
+#Configure Grub
+cp /home/$USER/archscript/dotfiles/grub /etc/default
+
+
 
 exec bash
 
