@@ -1,3 +1,5 @@
 #!/bin/bash
 
+slstatus &
 picom &
+wal -i Wallpaper17.png -q
