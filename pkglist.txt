@@ -1,3 +1,4 @@
+aerc
 arandr
 arc-gtk-theme
 autoconf
@@ -20,6 +21,7 @@ e2fsprogs
 ed
 efibootmgr
 elementary-icon-theme
+emacs
 epdfview
 expac
 fakeroot
@@ -34,7 +36,9 @@ gawk
 gcc
 gcc-libs
 gettext
+gimp
 git
+github-cli
 glibc
 gnome-packagekit
 grep
@@ -46,6 +50,7 @@ gvfs-smb
 gxmessage
 gzip
 htop
+hugo
 i3-gaps
 i3blocks
 i3lock
@@ -73,8 +78,10 @@ man-pages
 mesa
 moc
 mpv
+nano
 network-manager-applet
 networkmanager
+nnn
 noto-fonts-cjk
 ntfs-3g
 obconf
@@ -97,6 +104,7 @@ python-pywal
 qutebrowser
 ranger
 ristretto
+rxvt-unicode
 sed
 shadow
 sudo
@@ -112,6 +120,7 @@ tree
 ttf-dejavu
 unzip
 util-linux
+vi
 vim
 vis
 vlc
