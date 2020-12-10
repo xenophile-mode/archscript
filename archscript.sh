@@ -46,7 +46,7 @@ sudo make install
 cd
 
 #Enable dwm in display manager
-sudo mv dwm.desktop /usr/share/xsessions
+sudo cp ~/archscript/dotfiles/dwm.desktop /usr/share/xsessions
 
 #Enable ly dislpay manager
 sudo systemctl disable lightdm.service
@@ -57,7 +57,7 @@ sudo systemctl start windscribe
 sudo systemctl enable windscribe
 
 #Configure picom
-mv picom.conf .config
+cp archscript/dotfiles/picom.conf ~/.config
 
 #Keyboard configuration
 setxkbmap -option caps:swapescape
@@ -67,11 +67,10 @@ setxkbmap -option caps:swapescape
 #Configure vim 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
+cp ~/archscript/dotfiles/.vimrc ~
 
 #Configure dwm
-cd archscript/dotfiles/dwm
-cp config.h .local/src/dwm
+cp ~/archscript/dotfiles/dwm/config.h ~/.local/src/dwm
 cd
 cd .local/src/dwm
 sudo make install
@@ -81,7 +80,7 @@ git apply st-scrollback-0.8.4.diff
 sudo make install
 
 #Configure xprofile
-cp /home/$USER/archscript/dotfiles/.xprofile /home/$USER
+cp ~/archscript/dotfiles/.xprofile ~
 chmod +x .xprofile
 
 
@@ -90,10 +89,10 @@ chmod +x .xprofile
 #Configure text editors
 
 #Configure Grub
-cp /home/$USER/archscript/dotfiles/grub /etc/default
+cp ~/archscript/dotfiles/grub /etc/default
 
 #Configure .bashrc
-cp /home/$USER/archscript/dotfiles/.bashrc /home/$USER
+cp ~/archscript/dotfiles/.bashrc ~
 
 
 
