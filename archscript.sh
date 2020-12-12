@@ -115,7 +115,7 @@ sudo cp ~/archscript/dotfiles/grub/grub /etc/default
 sudo cp ~/archscript/dotfiles/grub/update-grub /usr/sbin
 sudo chown root:root /usr/sbin/update-grub
 sudo chmod 755 /usr/sbin/update-grub
-update-grub
+sudo update-grub
 
 
 #Configure .bashrc
