@@ -5,7 +5,10 @@
 #pacman -Qqen > pkglist.txt
 #pacman -Qqem > localpkglist.txt
 
+#Move to home and add pkglist files
 cd	
+cp ~/archscript/pkglist.txt ~ 	
+cp ~/archscript/localpkglist.txt ~
 
 #Update system
 echo '###Updating System..'
