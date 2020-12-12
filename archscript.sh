@@ -94,8 +94,10 @@ git apply ~/archscript/dotfiles/st/st-scrollback-0.8.4.diff
 sudo make install
 
 #Configure xprofile
+cd
 cp ~/archscript/dotfiles/.xprofile ~
-chmod +x .xprofile
+cd
+sudo chmod +x .xprofile
 
 
 #Configure slstatus
