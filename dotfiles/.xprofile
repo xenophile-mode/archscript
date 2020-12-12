@@ -2,4 +2,5 @@
 
 slstatus &
 picom &
+setxkbmap -option caps:swapescape
 wal -i Wallpaper17.png -q
