@@ -111,7 +111,12 @@ sudo chmod +x .xprofile
 #Configure text editors
 
 #Configure Grub
-sudo cp ~/archscript/dotfiles/grub /etc/default
+sudo cp ~/archscript/dotfiles/grub/grub /etc/default
+sudo cp ~/archscript/dotfiles/grub/update-grub /usr/sbin
+sudo chown root:root /usr/sbin/update-grub
+sudo chmod 755 /usr/sbin/update-grub
+update-grub
+
 
 #Configure .bashrc
 cp ~/archscript/dotfiles/.bashrc ~
