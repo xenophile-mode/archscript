@@ -16,4 +16,4 @@ soulseekqt
 st-duncan-git
 unetbootin
 windscribe-cli
-yay-git
+
