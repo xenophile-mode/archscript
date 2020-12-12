@@ -5,6 +5,8 @@
 #pacman -Qqen > pkglist.txt
 #pacman -Qqem > localpkglist.txt
 
+cd	
+
 #Update system
 echo '###Updating System..'
 sudo pacman -Syyu
