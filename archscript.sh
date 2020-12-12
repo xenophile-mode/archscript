@@ -89,9 +89,13 @@ cd
 cd .local/src/dwm
 sudo make install
 cd
-cd .local/src/dwm
-git apply ~/archscript/dotfiles/st/st-scrollback-0.8.4.diff
+sudo cp ~/archscript/dotfiles/slstatus/config.h ~/.local/src/slstatus
+cd
+cd .local/src/slstatus
 sudo make install
+cd
+
+
 
 #Configure xprofile
 cd
@@ -100,7 +104,9 @@ cd
 sudo chmod +x .xprofile
 
 
+
 #Configure slstatus
+
 #Configure st
 #Configure text editors
 
