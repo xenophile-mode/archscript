@@ -76,8 +76,6 @@ cp archscript/dotfiles/picom.conf ~/.config
 #Keyboard configuration
 setxkbmap -option caps:swapescape
 
-
-
 #Configure vim 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -95,8 +93,6 @@ cd .local/src/slstatus
 sudo make install
 cd
 
-
-
 #Configure xprofile
 cd
 cp ~/archscript/dotfiles/.xprofile ~
@@ -104,11 +100,9 @@ cd
 sudo chmod +x .xprofile
 
 
-
-#Configure slstatus
-
-#Configure st
+#Configure st/terminal
 #Configure text editors
+
 
 #Configure Grub
 sudo cp ~/archscript/dotfiles/grub/grub /etc/default
@@ -117,13 +111,7 @@ sudo chown root:root /usr/sbin/update-grub
 sudo chmod 755 /usr/sbin/update-grub
 sudo update-grub
 
-
 #Configure .bashrc
 cp ~/archscript/dotfiles/.bashrc ~
 
-
-
-
 exec bash
-
-
