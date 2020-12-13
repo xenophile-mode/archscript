@@ -94,6 +94,12 @@ sudo cp ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 
 
 
+####Configure .bashrc .bashprofile and .xprofile
+
+
+
+
+
 #Configure st/terminal
 #Configure text editors
 
@@ -106,6 +112,6 @@ sudo chmod 755 /usr/sbin/update-grub
 sudo update-grub
 
 #Configure .bashrc
-cp ~/archscript/dotfiles/.bashrc ~
+cp ~/archscript/dotfiles/bash/.bashrc ~
 
 exec bash

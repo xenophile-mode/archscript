@@ -1,9 +1,29 @@
 #
 # ~/.bashrc
 #
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+
+welcome() { 
+    #------------------------------------------ 
+    #------WELCOME MESSAGE--------------------- 
+    # customize this first message with a message of your choice. 
+    # this will display the username, date, time, a calendar, the amount of users, and the up time. 
+    #clear 
+    # Gotta love ASCII art with figlet 
+    figlet "Welcome, " $USER; 
+    #toilet "Welcome, " $USER; 
+    echo -e ""; cal ; 
+    echo -ne "Today is "; date #date +"Today is %A %D, and it is now %R" 
+    echo -e "" 
+    echo -ne "Up time:";uptime | awk /'up/' 
+    free 
+    echo -en "Local IP Address :"; /sbin/ifconfig wlan0 | awk /'inet addr/ {print $2}' | sed -e s/addr:/' '/   
+    echo ""; 
+} 
+welcome; 
+
 
 #Pywal exec on every terminal
 wal -i Wallpaper17.png -q
@@ -46,7 +66,7 @@ ALERT="${BWhite}${On_Red}" # Bold White on red background
 # Useful aliases
 alias c='clear'
 alias ..='cd ..'
-alias ls='ls -CF --color=auto'
+alias ls='ls -lah --color=auto'
 alias ll='s -lisa --color=auto'
 alias mkdir='mkdir -pv'
 alias free='free -mt'
@@ -56,9 +76,41 @@ alias wget='wget -c'
 alias histg='history | grep'
 alias myip='curl ipv4.icanhazip.com'
 alias grep='grep --color=auto'
+alias q='exit'
+alias k='pkill'
+alias home='cd ~'
+alias root='cd /'
+
+#Directory path bash prompt
+# Colour codes are cumbersome, so let's name them
+txtcyn='\[\e[0;96m\]' # Cyan
+txtpur='\[\e[0;35m\]' # Purple
+txtwht='\[\e[0;37m\]' # White
+txtrst='\[\e[0m\]'    # Text Reset
+
+# Which (C)olour for what part of the prompt?
+pathC="${txtcyn}"
+gitC="${txtpur}"
+pointerC="${txtwht}"
+normalC="${txtrst}"
+
+# Get the name of our branch and put parenthesis around it
+gitBranch() {
+				    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+		}
+
+# Build the prompt
+export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
+
+
 
 # Set PATH so it includes user's private bin directories
 PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
+
+
+
+
+
 
 # Set prompt
 PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
