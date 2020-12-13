@@ -123,6 +123,7 @@ termite
 texinfo
 thunar
 thunar-volman
+tig
 tk
 tree
 ttf-dejavu
