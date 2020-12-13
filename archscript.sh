@@ -34,12 +34,7 @@ yay -S --needed --noconfirm - < ~/localpkglist.txt
 echo '###Installing suckless software..'
 sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
-git clone git://git.suckless.org/st ~/.local/src/st
 git clone git://git.suckless.org/dwm ~/.local/src/dwm
-cd ~/.local/src/st
-make clean
-sudo make install
-cd
 cd ~/.local/src/dwm
 make clean
 sudo make install
