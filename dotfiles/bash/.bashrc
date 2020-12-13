@@ -12,14 +12,15 @@ welcome() {
     # this will display the username, date, time, a calendar, the amount of users, and the up time. 
     #clear 
     # Gotta love ASCII art with figlet 
-    figlet "Welcome, " $USER; 
+    figlet -f cybermedium "Welcome, " $USER; 
     #toilet "Welcome, " $USER; 
     echo -e ""; cal ; 
     echo -ne "Today is "; date #date +"Today is %A %D, and it is now %R" 
     echo -e "" 
     echo -ne "Up time:";uptime | awk /'up/' 
-    free 
-    echo -en "Local IP Address :"; /sbin/ifconfig wlan0 | awk /'inet addr/ {print $2}' | sed -e s/addr:/' '/   
+    free used 
+    iostat
+    netstat -i 
     echo ""; 
 } 
 welcome; 
