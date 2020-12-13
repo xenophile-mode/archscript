@@ -1,10 +1,15 @@
 aconfmgr-git
+auracle-git
 buku
 castor-git
 dmenu-extended-git
+dwmbar-git
 gtypist
+ii
 lemonbar-git
 ly
+pacaur
+quicklisp
 rtorrent-ps
 sam-git
 sic
@@ -12,3 +17,4 @@ soulseekqt
 st-duncan-git
 unetbootin
 windscribe-cli
+yay

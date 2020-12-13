@@ -109,6 +109,7 @@ ristretto
 rxvt-unicode
 sed
 shadow
+slock
 sudo
 systemd
 systemd-sysvcompat
