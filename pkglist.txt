@@ -33,6 +33,7 @@ file
 filesystem
 findutils
 firefox
+fish
 flex
 gawk
 gcc
