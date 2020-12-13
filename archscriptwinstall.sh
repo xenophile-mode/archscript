@@ -76,28 +76,28 @@ mount "${part_boot}" /mnt/boot
 #EOF
 
 
-genfstab -t PARTUUID /mnt >> /mnt/etc/fstab
-echo "${hostname}" > /mnt/etc/hostname
+#genfstab -t PARTUUID /mnt >> /mnt/etc/fstab
+#echo "${hostname}" > /mnt/etc/hostname
 
-cat >>/mnt/etc/pacman.conf <<EOF
-[mdaffin]
-SigLevel = Optional TrustAll
-Server = $REPO_URL
-EOF
+#cat >>/mnt/etc/pacman.conf <<EOF
+#[mdaffin]
+#SigLevel = Optional TrustAll
+#Server = $REPO_URL
+#EOF
 
 arch-chroot /mnt bootctl install
 
-cat <<EOF > /mnt/boot/loader/loader.conf
-default arch
-EOF
+#cat <<EOF > /mnt/boot/loader/loader.conf
+#default arch
+#EOF
 
-cat <<EOF > /mnt/boot/loader/entries/arch.conf
-title    Arch Linux
-linux    /vmlinuz-linux
-initrd   /intel-ucode.img
-initrd   /initramfs-linux.img
-options  root=PARTUUID=$(blkid -s PARTUUID -o value "$part_root") rw
-EOF
+#cat <<EOF > /mnt/boot/loader/entries/arch.conf
+#title    Arch Linux
+#linux    /vmlinuz-linux
+#initrd   /intel-ucode.img
+#initrd   /initramfs-linux.img
+#options  root=PARTUUID=$(blkid -s PARTUUID -o value "$part_root") rw
+#EOF
 
 echo "LANG=en_GB.UTF-8" > /mnt/etc/locale.conf
 
