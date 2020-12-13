@@ -75,7 +75,7 @@ mount "${part_boot}" /mnt/boot
 #Server = $REPO_URL
 #EOF
 
-pacstrap /mnt mdaffin-desktop
+
 genfstab -t PARTUUID /mnt >> /mnt/etc/fstab
 echo "${hostname}" > /mnt/etc/hostname
 
