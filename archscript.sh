@@ -109,6 +109,15 @@ sudo update-grub
 #Configure .bashrc
 cp ~/archscript/dotfiles/bash/.bashrc ~
 
+#Configure Fish shell
+cp ~/archscript/bash/.bash_aliases ~
+cd ~/.config/fish
+mkdir functions
+cd
+cp ~/archscript/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
+cd ~/.config/fish/functions
+fish_import_bash_aliases
+
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
 
