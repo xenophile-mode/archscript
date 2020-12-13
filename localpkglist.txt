@@ -5,6 +5,7 @@ castor-git
 dmenu-extended-git
 dwmbar-git
 figlet-fonts
+gitstats-git
 gtypist
 ii
 lemonbar-git
