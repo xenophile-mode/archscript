@@ -89,9 +89,8 @@ cp ~/archscript/dotfiles/.xprofile ~
 cd
 sudo chmod +x .xprofile
 
-
-
-####Configure status bar
+#Configure status bar
+sudo cp ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 
 
 
