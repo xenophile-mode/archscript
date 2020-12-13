@@ -1,5 +1,6 @@
 #!/bin/bash
 
+st &
 dwmbar &
 picom &
 setxkbmap -option caps:swapescape
