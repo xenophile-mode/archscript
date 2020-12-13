@@ -36,16 +36,11 @@ sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
 git clone git://git.suckless.org/st ~/.local/src/st
 git clone git://git.suckless.org/dwm ~/.local/src/dwm
-git clone git://git.suckless.org/st ~/.local/src/slstatus
 cd ~/.local/src/st
 make clean
 sudo make install
 cd
 cd ~/.local/src/dwm
-make clean
-sudo make install
-cd
-cd ~/.local/src/slstatus
 make clean
 sudo make install
 cd
@@ -87,17 +82,17 @@ cd
 cd .local/src/dwm
 sudo make install
 cd
-sudo cp ~/archscript/dotfiles/slstatus/config.h ~/.local/src/slstatus
-cd
-cd .local/src/slstatus
-sudo make install
-cd
 
 #Configure xprofile
 cd
 cp ~/archscript/dotfiles/.xprofile ~
 cd
 sudo chmod +x .xprofile
+
+
+
+####Configure status bar
+
 
 
 #Configure st/terminal
