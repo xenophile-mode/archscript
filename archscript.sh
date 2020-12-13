@@ -113,6 +113,9 @@ cp ~/archscript/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/funct
 cd ~/.config/fish/functions
 fish_import_bash_aliases
 
+#Configure termite
+cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
+
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
 
