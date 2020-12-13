@@ -111,6 +111,7 @@ qutebrowser
 ranger
 ristretto
 rxvt-unicode
+screenkey
 sed
 shadow
 slock
@@ -128,6 +129,7 @@ tig
 tk
 tree
 ttf-dejavu
+ttf-ibm-plex
 unzip
 util-linux
 vi
@@ -186,6 +188,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xsel
 xterm
 xz
 zsh
