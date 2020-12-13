@@ -81,6 +81,16 @@ alias q='exit'
 alias k='pkill'
 alias home='cd ~'
 alias root='cd /'
+alias reboot="sudo shutdown -r now"
+alias off="sudo shutdown -h now"
+alias reload='source ~/.bashrc' #reloads .bashrc
+
+
+# Auto completion
+complete -cf sudo
+complete -cf which
+bind 'TAB:menu-complete'
+
 
 #Directory path bash prompt
 # Colour codes are cumbersome, so let's name them
@@ -118,3 +128,4 @@ PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+exec fish

@@ -1,5 +1,6 @@
 #!/bin/bash/
-   
+#Pkglist generation script
+
 pacman -Qqen > pkglist.txt
 pacman -Qqem > localpkglist.txt
 mv ~/pkglist.txt ~/archscript
