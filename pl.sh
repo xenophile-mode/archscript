@@ -2,5 +2,5 @@
    
 pacman -Qqen > pkglist.txt
 pacman -Qqem > localpkglist.txt
-cp ~/pkglist.txt ~/archscript
-cp ~/localpkglist.txt ~/archscript
+mv ~/pkglist.txt ~/archscript
+mv ~/localpkglist.txt ~/archscript

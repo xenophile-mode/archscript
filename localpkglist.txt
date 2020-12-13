@@ -6,6 +6,7 @@ dmenu-extended-git
 dwmbar-git
 figlet-fonts
 gitstats-git
+grv
 gtypist
 ii
 lemonbar-git
