@@ -4,6 +4,7 @@ buku
 castor-git
 dmenu-extended-git
 dwmbar-git
+figlet-fonts
 gtypist
 ii
 lemonbar-git

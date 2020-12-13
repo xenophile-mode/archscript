@@ -28,6 +28,7 @@ expac
 fakeroot
 feh
 fff
+figlet
 file
 filesystem
 findutils
@@ -58,6 +59,7 @@ i3lock
 i3status
 imagemagick
 inetutils
+iperf
 iproute2
 iputils
 jq
@@ -80,6 +82,7 @@ mesa
 moc
 mpv
 nano
+net-tools
 network-manager-applet
 networkmanager
 nnn
@@ -111,6 +114,7 @@ sed
 shadow
 slock
 sudo
+sysstat
 systemd
 systemd-sysvcompat
 tar
