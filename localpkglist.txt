@@ -17,7 +17,7 @@ rtorrent-ps
 sam-git
 sic
 soulseekqt
-st-duncan-git
+st-luke-git
 unetbootin
 windscribe-cli
 yay
