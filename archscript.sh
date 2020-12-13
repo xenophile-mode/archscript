@@ -94,11 +94,6 @@ sudo cp ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 
 
 
-####Configure .bashrc .bashprofile and .xprofile
-
-
-
-
 
 #Configure st/terminal
 #Configure text editors
@@ -113,5 +108,8 @@ sudo update-grub
 
 #Configure .bashrc
 cp ~/archscript/dotfiles/bash/.bashrc ~
+
+#Copy pl.sh to home directory
+cp ~/archscript/pl.sh ~
 
 exec bash
