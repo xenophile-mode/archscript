@@ -27,7 +27,8 @@ welcome;
 
 
 #Pywal exec on every terminal
-wal -i Wallpaper17.png -q
+#wal -i Wallpaper17.png -q
+cat /home/xenophile/.cache/wal/sequences
 
 # Make colorcoding available for everyone
 
