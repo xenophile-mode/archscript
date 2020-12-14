@@ -88,11 +88,7 @@ echo "Press any key to chroot..."
 read tmpvar
 arch-chroot /mnt /bin/bash
 
-
-
-
-
-o "Krushn's Arch Configurator"
+echo "Krushn's Arch Configurator"
 
 # Set date time
 ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
