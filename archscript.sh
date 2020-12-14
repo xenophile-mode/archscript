@@ -88,7 +88,8 @@ sudo chmod +x .xprofile
 cd /
 sudo cp -R ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 
-
+#Configure qutebrowser
+cp ~/archscript/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 
 #Configure st/terminal
