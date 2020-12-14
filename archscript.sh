@@ -128,6 +128,10 @@ cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
 
+#Run pywal
+cp ~/archscript/dotfiles/papes/Wallpaper17.png ~
+wal -i Wallpaper17.png
+
 echo 'run fish_import_bash_aliases'
 
 exec bash
