@@ -112,6 +112,10 @@ cp ~/archscript/dotfiles/bash/.bashrc ~
 #Configure shell
 sudo chsh --shell /bin/bash xenophile
 
+#Run pywal
+cd
+cp ~/archscript/dotfiles/papes/Wallpaper17.png ~
+wal -i Wallpaper17.png
 
 #Configure Fish shell
 cp ~/archscript/dotfiles/bash/.bash_aliases ~
@@ -127,10 +131,6 @@ cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
 
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
-
-#Run pywal
-cp ~/archscript/dotfiles/papes/Wallpaper17.png ~
-wal -i Wallpaper17.png
 
 echo 'run fish_import_bash_aliases'
 
