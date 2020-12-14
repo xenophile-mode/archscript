@@ -112,12 +112,14 @@ mkdir functions
 cd
 cp ~/archscript/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
 cd ~/.config/fish/functions
-exec fish_import_bash_aliases
+fish_import_bash_aliases
 
 #Configure termite
 cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
 
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
+
+echo 'run fish_import_bash_aliases'
 
 exec bash
