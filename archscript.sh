@@ -21,7 +21,7 @@ sudo pacman -S --needed $(comm -12 <(pacman -Slq|sort) <(sort pkglist.txt) )
 #Install yay
 echo '###Installing yay..'
 sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay-bin.git
 cd yay
 makepkg -si
 cd
