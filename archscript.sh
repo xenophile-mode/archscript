@@ -85,7 +85,8 @@ cd
 sudo chmod +x .xprofile
 
 #Configure status bar
-sudo cp ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
+cd /
+sudo cp -R ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 
 
 
@@ -105,7 +106,7 @@ sudo update-grub
 cp ~/archscript/dotfiles/bash/.bashrc ~
 
 #Configure Fish shell
-cp ~/archscript/bash/.bash_aliases ~
+cp ~/archscript/dotfiles/bash/.bash_aliases ~
 cd ~/.config/fish
 mkdir functions
 cd
