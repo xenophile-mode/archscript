@@ -87,5 +87,5 @@ cp ~/archscript/archscriptwinstall2.sh /mnt
 echo "After chrooting into newly installed OS, please run the post-install.sh by executing ./post-install.sh"
 echo "Press any key to chroot..."
 read tmpvar
-sudo arch-chroot /mnt ./archscriptwinstall2.sh
+sudo arch-chroot /mnt sudo ./archscriptwinstall2.sh
 
