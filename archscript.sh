@@ -106,6 +106,10 @@ sudo update-grub
 #Configure .bashrc
 cp ~/archscript/dotfiles/bash/.bashrc ~
 
+#Configure shell
+sudo chsh --shell /bin/bash xenophile
+
+
 #Configure Fish shell
 cp ~/archscript/dotfiles/bash/.bash_aliases ~
 cd ~/.config/fish
