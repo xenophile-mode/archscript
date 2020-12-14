@@ -91,6 +91,9 @@ sudo cp -R ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
 #Configure qutebrowser
 cp ~/archscript/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
+#Configure moc
+cp ~/archscript/dotfiles/moc/config ~/.moc
+
 
 #Configure st/terminal
 #Configure text editors
