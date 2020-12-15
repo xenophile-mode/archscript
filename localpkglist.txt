@@ -20,4 +20,3 @@ soulseekqt
 st-luke-git
 unetbootin
 windscribe-cli
-yay

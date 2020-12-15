@@ -110,7 +110,7 @@ sudo update-grub
 cp ~/archscript/dotfiles/bash/.bashrc ~
 
 #Configure shell
-sudo chsh --shell /bin/bash xenophile
+sudo chsh --shell /bin/bash $USER
 
 #Run pywal
 cd
@@ -132,6 +132,6 @@ cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
 
-echo 'run fish_import_bash_aliases'
+echo '###Please run fish_import_bash_aliases'
 
 exec bash
