@@ -4,7 +4,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+#Default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
+#Welcome message
 welcome() { 
     #------------------------------------------ 
     #------WELCOME MESSAGE--------------------- 
@@ -25,6 +29,9 @@ welcome() {
 } 
 welcome; 
 
+#nnn config
+#export EDITOR="vim"
+#export NNN_USE_EDITOR=1
 
 #Pywal exec on every terminal
 #wal -i Wallpaper17.png -q
@@ -85,6 +92,7 @@ alias root='cd /'
 alias reboot="sudo shutdown -r now"
 alias off="sudo shutdown -h now"
 alias reload='source ~/.bashrc' #reloads .bashrc
+alias nnn='nnn -e'
 
 
 # Auto completion
@@ -129,4 +137,4 @@ PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-exec fish
+#exec fish
