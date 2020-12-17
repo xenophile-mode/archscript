@@ -46,6 +46,8 @@ Plug 'thaerkh/vim-workspace'
 
 Plug 'othree/html5.vim'
 
+Plug 'chrisbra/sudoedit.vim'
+
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
@@ -282,6 +284,9 @@ call plug#begin('~/.vim/plugged')
 
 	" Color schemes
 	Plug 'gerardbm/vim-atomic'
+  
+  Plug 'chrisbra/sudoedit.vim'
+
 
 call plug#end()
 
@@ -635,6 +640,17 @@ let g:vimwiki_list          = [
 
 nnoremap <Leader>we :VimwikiToggleListItem<CR>
 vnoremap <Leader>we :VimwikiToggleListItem<CR>
+
+#Use ctrl-[hjkl] to select the active split!
+#nmap <silent> <c-k> :wincmd k<CR>
+#nmap <silent> <c-j> :wincmd j<CR>
+#nmap <silent> <c-h> :wincmd h<CR>
+#nmap <silent> <c-l> :wincmd l<CR>
+
+map <up> <C-w><up>
+map <down> <C-w><down>
+map <left> <C-w><left>
+map <right> <C-w><right>
 
 "----------------------------------------------------------------
 " 4. User interface
