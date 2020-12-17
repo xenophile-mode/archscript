@@ -3,4 +3,4 @@
 dwmbar &
 st &
 picom &
-cat /home/xenophile/.cache/wal/sequences
+wal -i Wallpaper13.jpg

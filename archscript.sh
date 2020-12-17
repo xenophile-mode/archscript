@@ -78,6 +78,9 @@ cd .local/src/dwm
 sudo make install
 cd
 
+#Configure dmenu_extended
+cp ~/archscript/dotfiles/dmenu_extended/dmenuExtended_preferences.txt ~/.config/dmenu-extended
+
 #Configure xprofile
 cd
 cp ~/archscript/dotfiles/.xprofile ~
