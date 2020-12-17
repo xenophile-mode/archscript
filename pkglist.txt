@@ -10,6 +10,7 @@ binutils
 bison
 btrfs-progs
 bzip2
+chrony
 cmus
 coreutils
 cpupower
@@ -83,6 +84,7 @@ mesa
 moc
 mpv
 nano
+ncmpcpp
 net-tools
 network-manager-applet
 networkmanager
@@ -166,6 +168,7 @@ xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xdriinfo
 xorg-xev
+xorg-xfontsel
 xorg-xgamma
 xorg-xhost
 xorg-xinit

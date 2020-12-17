@@ -1,5 +1,6 @@
 aconfmgr-git
 auracle-git
+balena-etcher
 buku
 castor-git
 dmenu-extended-git
@@ -20,3 +21,4 @@ soulseekqt
 st-luke-git
 unetbootin
 windscribe-cli
+yay-bin
