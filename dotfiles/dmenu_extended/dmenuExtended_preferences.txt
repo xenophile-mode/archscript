@@ -30,7 +30,7 @@
         "-sb",
         "#1D1F21",
         "-fn",
-        "IBM Plex Mono:pixelsize=11",
+        "IBM Plex Mono:pixelsize=13",
         "-l",
         "20"
     ],
