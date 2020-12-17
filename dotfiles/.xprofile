@@ -1,7 +1,6 @@
 #!/bin/bash
 
-st &
 dwmbar &
+st &
 picom &
-setxkbmap -option caps:swapescape
-wal -i Wallpaper17.png -q
+cat /home/xenophile/.cache/wal/sequences
