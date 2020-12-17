@@ -60,6 +60,9 @@ sudo systemctl enable ly.service
 sudo systemctl start windscribe
 sudo systemctl enable windscribe
 
+#Enable ntp sync
+sudo systemctl enable --now chronyd
+
 #Configure picom
 cp archscript/dotfiles/picom.conf ~/.config
 
