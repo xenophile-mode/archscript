@@ -13,6 +13,7 @@ settings:
       normal:
         co: null
         d: null
+        m: buffer
   content.notifications:
     https://dlive.tv: false
     https://www.youtube.com: false
