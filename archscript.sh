@@ -49,6 +49,12 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 #Install mcross browser
 pip install --user mcross
 
+#Install my fork of dwmbar
+git clone https://github.com/xenophile-mode/dwmbar.git
+cd dwmbar
+sudo ./install.sh
+cd
+
 #Enable dwm in display manager
 sudo cp ~/archscript/dotfiles/dwm.desktop /usr/share/xsessions
 
