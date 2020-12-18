@@ -85,6 +85,7 @@ moc
 mpv
 nano
 ncmpcpp
+nedit
 net-tools
 network-manager-applet
 networkmanager

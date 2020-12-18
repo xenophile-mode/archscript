@@ -4,7 +4,6 @@ balena-etcher
 buku
 castor-git
 dmenu-extended-git
-dwmbar-git
 figlet-fonts
 gitstats-git
 grv
@@ -12,10 +11,12 @@ gtypist
 ii
 lemonbar-git
 ly
+nyxt-browser-git
 pacaur
 quicklisp
 rtorrent-ps
 sam-git
+sandy-git
 sic
 soulseekqt
 st-luke-git
