@@ -107,7 +107,7 @@ sudo cp -R ~/dotfiles/dwmbar/config usr/share/dwmbar
 cp ~/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 #Configure moc
-cp ~/archscript/dotfiles/moc/config ~/.moc
+cp ~/dotfiles/.moc/config ~/.moc
 
 
 #Configure st/terminal
@@ -129,7 +129,7 @@ sudo chsh --shell /bin/bash $USER
 
 #Run pywal
 cd
-cp ~/dotfiles/papes/Wallpaper17.png ~
+cp ~/dotfiles/papes/Wallpaper13.jpg ~
 wal -i Wallpaper17.png
 
 #Configure Fish shell
