@@ -26,9 +26,12 @@ cd yay
 makepkg -si
 cd
 
-#Install pacaur and auracle-git dependancy for pacaur
-echo '###Installing pacaur and dependancies..'
+#Install packages from localpkglist
 yay -S --needed --noconfirm - < ~/localpkglist.txt
+
+#Clone my dotfiles repo
+cd
+git clone https://github.com/xenophile-mode/dotfiles.git
 
 #Install suckless software
 echo '###Installing suckless software..'
@@ -56,7 +59,7 @@ sudo ./install.sh
 cd
 
 #Enable dwm in display manager
-sudo cp ~/archscript/dotfiles/dwm.desktop /usr/share/xsessions
+sudo cp ~/dotfiles/dwm.desktop /usr/share/xsessions
 
 #Enable ly dislpay manager
 sudo systemctl disable lightdm.service
@@ -70,7 +73,7 @@ sudo systemctl enable windscribe
 sudo systemctl enable --now chronyd
 
 #Configure picom
-cp archscript/dotfiles/picom.conf ~/.config
+cp ~/dotfiles/picom.conf ~/.config
 
 #Keyboard configuration
 setxkbmap -option caps:swapescape
@@ -78,30 +81,30 @@ setxkbmap -option caps:swapescape
 #Configure vim 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cp ~/archscript/dotfiles/.vimrc ~
+cp ~/dotfiles/.vimrc ~
 
 #Configure dwm
-sudo cp ~/archscript/dotfiles/dwm/config.h ~/.local/src/dwm
+sudo cp ~/dotfiles/dwm/config.h ~/.local/src/dwm
 cd
 cd .local/src/dwm
 sudo make install
 cd
 
 #Configure dmenu_extended
-cp ~/archscript/dotfiles/dmenu_extended/dmenuExtended_preferences.txt ~/.config/dmenu-extended
+cp ~/dotfiles/dmenu_extended/dmenuExtended_preferences.txt ~/.config/dmenu-extended
 
 #Configure xprofile
 cd
-cp ~/archscript/dotfiles/.xprofile ~
+cp ~/dotfiles/.xprofile ~
 cd
 sudo chmod +x .xprofile
 
 #Configure status bar
 cd /
-sudo cp -R ~/archscript/dotfiles/dwmbar/config usr/share/dwmbar
+sudo cp -R ~/dotfiles/dwmbar/config usr/share/dwmbar
 
 #Configure qutebrowser
-cp ~/archscript/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
+cp ~/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 #Configure moc
 cp ~/archscript/dotfiles/moc/config ~/.moc
@@ -112,34 +115,34 @@ cp ~/archscript/dotfiles/moc/config ~/.moc
 
 
 #Configure Grub
-sudo cp ~/archscript/dotfiles/grub/grub /etc/default
-sudo cp ~/archscript/dotfiles/grub/update-grub /usr/sbin
+sudo cp ~/dotfiles/grub/grub /etc/default
+sudo cp ~/dotfiles/grub/update-grub /usr/sbin
 sudo chown root:root /usr/sbin/update-grub
 sudo chmod 755 /usr/sbin/update-grub
 sudo update-grub
 
 #Configure .bashrc
-cp ~/archscript/dotfiles/bash/.bashrc ~
+cp ~/dotfiles/bash/.bashrc ~
 
 #Configure shell
 sudo chsh --shell /bin/bash $USER
 
 #Run pywal
 cd
-cp ~/archscript/dotfiles/papes/Wallpaper17.png ~
+cp ~/dotfiles/papes/Wallpaper17.png ~
 wal -i Wallpaper17.png
 
 #Configure Fish shell
-cp ~/archscript/dotfiles/bash/.bash_aliases ~
+cp ~/dotfiles/bash/.bash_aliases ~
 cd ~/.config/fish
 mkdir functions
 cd
-cp ~/archscript/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
+cp ~/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
 cd ~/.config/fish/functions
 fish_import_bash_aliases
 
 #Configure termite
-cp ~/archscript/dotfiles/terms/termite/config ~/.config/termite
+cp ~/dotfiles/terms/termite/config ~/.config/termite
 
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
