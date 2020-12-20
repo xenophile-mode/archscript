@@ -37,7 +37,7 @@ git clone https://github.com/xenophile-mode/dotfiles.git
 echo '###Installing suckless software..'
 sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
-git clone git://git.suckless.org/dwm ~/.local/src/dwm
+git clone https:github/xenophile-mode/dwm.git ~/.local/src/dwm
 cd ~/.local/src/dwm
 make clean
 sudo make install
@@ -82,13 +82,6 @@ setxkbmap -option caps:swapescape
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cp ~/dotfiles/.vimrc ~
-
-#Configure dwm
-sudo cp ~/dotfiles/dwm/config.h ~/.local/src/dwm
-cd
-cd .local/src/dwm
-sudo make install
-cd
 
 #Configure dmenu_extended
 cp ~/dotfiles/dmenu_extended/dmenuExtended_preferences.txt ~/.config/dmenu-extended
