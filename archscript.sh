@@ -42,6 +42,16 @@ cd ~/.local/src/dwm
 make clean
 sudo make install
 cd
+git clone https:github/xenophile-mode/st.git ~/.local/src/st
+cd st
+make clean
+sudo make install
+cd
+git clone https:github/xenophile-mode/dmenu.git ~/.local/src/dmenu
+cd dmenu
+make clean
+sudo make install
+cd
 
 #Install Doom Emacs
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
