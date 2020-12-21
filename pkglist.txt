@@ -6,6 +6,7 @@ autoconf
 automake
 bash
 bdf-unifont
+bemenu
 binutils
 bison
 btrfs-progs
@@ -36,6 +37,7 @@ findutils
 firefox
 fish
 flex
+fzy
 gawk
 gcc
 gcc-libs
@@ -48,6 +50,7 @@ gnome-packagekit
 grep
 groff
 grub
+guake
 gvfs
 gvfs-mtp
 gvfs-smb
@@ -82,6 +85,7 @@ man-db
 man-pages
 mesa
 moc
+most
 mpv
 nano
 ncmpcpp

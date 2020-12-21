@@ -13,13 +13,15 @@ lemonbar-git
 ly
 nyxt-browser-git
 pacaur
+peco
+pick
+pmenu
 quicklisp
 rtorrent-ps
 sam-git
 sandy-git
 sic
 soulseekqt
-st-luke-git
 unetbootin
 windscribe-cli
 yay
