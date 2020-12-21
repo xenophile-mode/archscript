@@ -37,17 +37,17 @@ git clone https://github.com/xenophile-mode/dotfiles.git
 echo '###Installing suckless software..'
 sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit terminus-font
 mkdir -p ~/.local/src
-git clone https://github/xenophile-mode/dwm.git ~/.local/src/dwm
+git clone https://github.com/xenophile-mode/dwm.git ~/.local/src/dwm
 cd ~/.local/src/dwm
 make clean
 sudo make install
 cd
-git clone https://github/xenophile-mode/st.git ~/.local/src/st
+git clone https://github.com/xenophile-mode/st.git ~/.local/src/st
 cd st
 make clean
 sudo make install
 cd
-git clone https://github/xenophile-mode/dmenu.git ~/.local/src/dmenu
+git clone https://github.com/xenophile-mode/dmenu.git ~/.local/src/dmenu
 cd dmenu
 make clean
 sudo make install
