@@ -1,9 +1,9 @@
 aconfmgr-git
 auracle-git
 balena-etcher
+bashmount
 buku
 castor-git
-dmenu-extended-git
 figlet-fonts
 gitstats-git
 grv

@@ -18,7 +18,6 @@ cpupower
 dash
 dhcpcd
 dialog
-dmenu
 dosfstools
 e2fsprogs
 ed
