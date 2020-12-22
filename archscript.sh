@@ -43,12 +43,12 @@ make clean
 sudo make install
 cd
 git clone https://github.com/xenophile-mode/st.git ~/.local/src/st
-cd st
+cd ~/.local/src/st
 make clean
 sudo make install
 cd
 git clone https://github.com/xenophile-mode/dmenu.git ~/.local/src/dmenu
-cd dmenu
+cd ~/.local/src/dmenu
 make clean
 sudo make install
 cd
