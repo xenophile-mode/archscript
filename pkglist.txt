@@ -19,6 +19,7 @@ dash
 dhcpcd
 dialog
 dosfstools
+dvtm
 e2fsprogs
 ed
 efibootmgr
@@ -55,6 +56,8 @@ gvfs-mtp
 gvfs-smb
 gxmessage
 gzip
+hledger
+hledger-ui
 htop
 hugo
 i3-gaps
@@ -67,6 +70,8 @@ iperf
 iproute2
 iputils
 jq
+kakoune
+ledger
 libreoffice-fresh
 libtool
 licenses
@@ -83,6 +88,7 @@ make
 man-db
 man-pages
 mesa
+mg
 moc
 most
 mpv
@@ -114,6 +120,7 @@ pulseeffects
 python-pip
 python-pywal
 qutebrowser
+radare2
 ranger
 ristretto
 rxvt-unicode

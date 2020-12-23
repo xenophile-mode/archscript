@@ -23,5 +23,7 @@ sandy-git
 sic
 soulseekqt
 unetbootin
+vile
+wily
 windscribe-cli
 yay
