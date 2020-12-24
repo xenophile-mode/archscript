@@ -22,6 +22,7 @@ sam-git
 sandy-git
 sic
 soulseekqt
+transset-df
 unetbootin
 vile
 wily

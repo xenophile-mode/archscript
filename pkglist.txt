@@ -60,9 +60,6 @@ hledger
 hledger-ui
 htop
 hugo
-i3-gaps
-i3blocks
-i3lock
 i3status
 imagemagick
 inetutils
