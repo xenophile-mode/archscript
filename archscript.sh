@@ -107,13 +107,16 @@ cd /
 sudo cp -R ~/dotfiles/dwmbar/config usr/share/dwmbar
 
 #Configure qutebrowser
+qutebrowser
 cp ~/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 #Configure moc
 cp ~/dotfiles/.moc/config ~/.moc
 
+#Configure xterm
+cp ~/dotfiles/.Xresources ~
+xrdb -merge .Xresources
 
-#Configure st/terminal
 #Configure text editors
 
 
