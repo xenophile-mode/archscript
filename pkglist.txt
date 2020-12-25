@@ -37,6 +37,7 @@ findutils
 firefox
 fish
 flex
+fvwm
 fzy
 gawk
 gcc
@@ -68,6 +69,7 @@ iproute2
 iputils
 jq
 kakoune
+ksh
 ledger
 libreoffice-fresh
 libtool
@@ -106,6 +108,7 @@ pantheon-music
 patch
 pavucontrol
 pciutils
+perl-file-mimeinfo
 picom
 pkgconf
 polkit-gnome
@@ -115,6 +118,7 @@ pulseaudio
 pulseaudio-alsa
 pulseeffects
 python-pip
+python-psutil
 python-pywal
 qutebrowser
 radare2
@@ -125,6 +129,7 @@ screenkey
 sed
 shadow
 slock
+stalonetray
 sudo
 sysstat
 systemd
@@ -199,6 +204,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xscreensaver
 xsel
 xterm
 xz
