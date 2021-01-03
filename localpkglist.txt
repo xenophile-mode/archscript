@@ -4,6 +4,7 @@ balena-etcher
 bashmount
 buku
 castor-git
+epr-git
 figlet-fonts
 gitstats-git
 grv
@@ -22,6 +23,7 @@ sam-git
 sandy-git
 sic
 soulseekqt
+termpub
 transset-df
 unetbootin
 vile
