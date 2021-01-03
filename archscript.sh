@@ -82,6 +82,10 @@ sudo systemctl enable windscribe
 #Enable ntp sync
 sudo systemctl enable --now chronyd
 
+#Enable haveged
+sudo systemctl start haveged
+sudo systemctl enable haveged
+
 #Configure picom
 cp ~/dotfiles/picom.conf ~/.config
 
@@ -119,6 +123,9 @@ xrdb -merge .Xresources
 
 #Configure text editors
 
+#Custom initial ramdisk
+sudo cp ~/dotfiles/mkinitcpio.conf /etc
+sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
 
 #Configure Grub
 sudo cp ~/dotfiles/grub/grub /etc/default
