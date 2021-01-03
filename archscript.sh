@@ -145,14 +145,14 @@ cd
 cp ~/dotfiles/papes/Wallpaper13.jpg ~
 wal -i Wallpaper17.png
 
-#Configure Fish shell
-cp ~/dotfiles/bash/.bash_aliases ~
-cd ~/.config/fish
-mkdir functions
-cd
-cp ~/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
-cd ~/.config/fish/functions
-fish_import_bash_aliases
+###Configure Fish shell (UNCOMMENT THIS SECTION IF YOU WANT FISH SHELL)
+#cp ~/dotfiles/bash/.bash_aliases ~
+#cd ~/.config/fish
+#mkdir functions
+#cd
+#cp ~/dotfiles/fish/fish_import_bash_aliases.fish ~/.config/fish/functions
+#cd ~/.config/fish/functions
+#fish_import_bash_aliases
 
 #Configure termite
 cp ~/dotfiles/terms/termite/config ~/.config/termite
