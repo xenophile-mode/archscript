@@ -9,7 +9,6 @@ bdf-unifont
 bemenu
 binutils
 bison
-bookworm
 btrfs-progs
 bzip2
 chrony
@@ -133,6 +132,7 @@ sed
 shadow
 slock
 stalonetray
+stow
 sudo
 sysstat
 systemd

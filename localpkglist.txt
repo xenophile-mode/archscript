@@ -4,6 +4,7 @@ balena-etcher
 bashmount
 buku
 castor-git
+emptty-git
 epr-git
 figlet-fonts
 gitstats-git
