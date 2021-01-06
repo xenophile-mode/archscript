@@ -87,6 +87,11 @@ sudo systemctl start haveged
 sudo systemctl enable haveged
 
 #Setup dotfiles via stow
+cd /
+sudo rm etc/default/grub
+sudo rm etc/mkinitcpio.conf
+cd
+sudo rm .bashrc
 cd ~/dotfiles/home
 sudo stow -vSt ~ *
 cd
