@@ -1,9 +1,10 @@
 #!/bin/bash/
 #Bash script to install packages and configure a new system.
 
-#Run these commands to generate new package lists
-#pacman -Qqen > pkglist.txt
-#pacman -Qqem > localpkglist.txt
+
+
+
+####UPDATE AND INSTALL SOFTWARE####
 
 #Move to home and add pkglist files
 cd	
@@ -68,6 +69,11 @@ cd dwmbar
 sudo ./install.sh
 cd
 
+
+
+
+####ENABLE SERVICES####
+
 #Enable dwm in display manager
 sudo cp ~/dotfiles/root/Xsessions/usr/share/dwm.desktop /usr/share/xsessions
 
@@ -86,17 +92,11 @@ sudo systemctl enable --now chronyd
 sudo systemctl start haveged
 sudo systemctl enable haveged
 
-#Setup dotfiles via stow
-cd /
-sudo rm etc/default/grub
-sudo rm etc/mkinitcpio.conf
-cd
-sudo rm .bashrc
-cd ~/dotfiles/home
-sudo stow -vSt ~ *
-cd
-cd ~/dotfiles/root
-sudo stow -vSt / *
+
+
+
+
+####CONFIGURE SYSTEM/SOFTWARE####
 
 #Configure picom
 cp ~/dotfiles/home/picom/.config/picom.conf ~/.config
