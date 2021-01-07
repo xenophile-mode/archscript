@@ -69,7 +69,7 @@ sudo ./install.sh
 cd
 
 #Enable dwm in display manager
-sudo cp ~/dotfiles/dwm.desktop /usr/share/xsessions
+sudo cp ~/dotfiles/root/Xsessions/usr/share/dwm.desktop /usr/share/xsessions
 
 #Enable ly dislpay manager
 sudo systemctl disable lightdm.service
@@ -99,7 +99,7 @@ cd ~/dotfiles/root
 sudo stow -vSt / *
 
 #Configure picom
-#cp ~/dotfiles/picom.conf ~/.config
+cp ~/dotfiles/home/picom/.config/picom.conf ~/.config
 
 #Keyboard configuration
 setxkbmap -option caps:swapescape
@@ -107,47 +107,43 @@ setxkbmap -option caps:swapescape
 #Configure vim 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-#cp ~/dotfiles/.vimrc ~
+cp ~/dotfiles/home/vim/.vimrc ~
 
 #Configure dmenu_extended
-#cp ~/dotfiles/dmenu_extended/dmenuExtended_preferences.txt ~/.config/dmenu-extended
+cp ~/dotfiles/home/dmenu_extended/.config/dmenu-extended/config/dmenuExtended_preferences.txt ~/.config/dmenu-extended
 
 #Configure xprofile
-#cd
-#cp ~/dotfiles/.xprofile ~
-#cd
+cd
+cp ~/dotfiles/home/xprofile/.xprofile ~
+cd
 sudo chmod +x .xprofile
-
-#Configure status bar
-#cd /
-#sudo cp -R ~/dotfiles/dwmbar/config usr/share/dwmbar
 
 #Configure qutebrowser
 qutebrowser &
-#cp ~/dotfiles/qutebrowser/autoconfig.yml ~/.config/qutebrowser
+cp ~/dotfiles/home/qutebrowser/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 #Configure moc
-#cp ~/dotfiles/.moc/config ~/.moc
+cp ~/dotfiles/home/.moc/config ~/.moc
 
 #Configure xterm
-#cp ~/dotfiles/.Xresources ~
+cp ~/dotfiles/home/Xresources/.Xresources ~
 xrdb -merge .Xresources
 
 #Configure text editors
 
 #Custom initial ramdisk
-#sudo cp ~/dotfiles/mkinitcpio.conf /etc
+sudo cp ~/dotfiles/root/mkinitcpio/etc/mkinitcpio.conf /etc
 sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
 
 #Configure Grub
-#sudo cp ~/dotfiles/grub/grub /etc/default
-#sudo cp ~/dotfiles/grub/update-grub /usr/sbin
+sudo cp ~/dotfiles/root/grub/etc/default/grub /etc/default
+sudo cp ~/dotfiles/root/update-grub/update-grub /usr/sbin
 sudo chown root:root /usr/sbin/update-grub
 sudo chmod 755 /usr/sbin/update-grub
 sudo update-grub
 
 #Configure .bashrc
-#cp ~/dotfiles/bash/.bashrc ~
+cp ~/dotfiles/home/bash/.bashrc ~
 
 #Configure shell
 sudo chsh --shell /bin/bash $USER
@@ -167,7 +163,7 @@ wal -i Wallpaper17.png
 #fish_import_bash_aliases
 
 #Configure termite
-#cp ~/dotfiles/terms/termite/config ~/.config/termite
+cp ~/dotfiles/home/termite/.config/termite/config ~/.config/termite
 
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
