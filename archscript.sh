@@ -131,10 +131,6 @@ xrdb -merge .Xresources
 
 #Configure text editors
 
-#Custom initial ramdisk
-sudo cp ~/dotfiles/root/mkinitcpio/etc/mkinitcpio.conf /etc
-sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
-
 #Configure Grub
 sudo cp ~/dotfiles/root/grub/etc/default/grub /etc/default
 sudo cp ~/dotfiles/root/update-grub/update-grub /usr/sbin
