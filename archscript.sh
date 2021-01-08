@@ -53,6 +53,7 @@ cd ~/.local/src/dmenu
 make clean
 sudo make install
 cd
+qutebrowser &
 
 #Install Doom Emacs
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
@@ -119,7 +120,6 @@ cd
 sudo chmod +x .xprofile
 
 #Configure qutebrowser
-qutebrowser &
 cp ~/dotfiles/home/qutebrowser/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser
 
 #Configure moc
