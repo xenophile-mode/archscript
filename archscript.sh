@@ -75,7 +75,7 @@ cd
 ####ENABLE SERVICES####
 
 #Enable dwm in display manager
-sudo cp ~/dotfiles/root/Xsessions/usr/share/dwm.desktop /usr/share/xsessions
+sudo cp ~/dotfiles/root/Xsessions/usr/share/xsessions/dwm.desktop /usr/share/xsessions
 
 #Enable ly dislpay manager
 sudo systemctl disable lightdm.service
