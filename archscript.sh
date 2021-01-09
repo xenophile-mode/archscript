@@ -78,9 +78,9 @@ cd
 #Enable dwm in display manager
 sudo cp ~/dotfiles/root/Xsessions/usr/share/xsessions/dwm.desktop /usr/share/xsessions
 
-#Enable ly dislpay manager
+#Disable dislpay manager
 sudo systemctl disable lightdm.service
-sudo systemctl enable ly.service
+
 
 #Enable windscribe vpn
 sudo systemctl start windscribe
@@ -143,6 +143,12 @@ cp ~/dotfiles/home/bash/.bashrc ~
 
 #Configure shell
 sudo chsh --shell /bin/bash $USER
+
+#Configure .bash_profile
+cp ~/dotfiles/home/bash/.bash_profile ~
+
+#Configure .xinitrc
+cp ~/dotfiles/home/xinitrc/.xinitrc ~
 
 #Run pywal
 cd
