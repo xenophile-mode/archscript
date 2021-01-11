@@ -35,7 +35,6 @@ figlet
 file
 filesystem
 findutils
-firefox
 fish
 flex
 fvwm

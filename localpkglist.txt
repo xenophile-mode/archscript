@@ -2,6 +2,7 @@ aconfmgr-git
 auracle-git
 balena-etcher
 bashmount
+brave-bin
 buku
 castor-git
 emptty-git
