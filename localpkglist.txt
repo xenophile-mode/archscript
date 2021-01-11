@@ -18,7 +18,8 @@ pacaur
 peco
 pick
 pmenu
-quicklisp
+ponymix-git
+rsmixer
 rtorrent-ps
 sam-git
 sandy-git
