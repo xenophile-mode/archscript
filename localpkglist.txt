@@ -10,6 +10,7 @@ figlet-fonts
 gitstats-git
 grv
 gtypist
+hikari
 ii
 lemonbar-git
 ly
