@@ -153,6 +153,9 @@ cp ~/dotfiles/home/xinitrc/.xinitrc ~
 #Configure kakoune
 sudo cp ~/dotfiles/home/kak/kakrc ~/.config/kak
 
+#Configure twm
+sudo cp ~/dotfiles/home/twm/.twmrc ~
+
 #Run pywal
 cd
 cp ~/dotfiles/papes/Wallpaper13.jpg ~
