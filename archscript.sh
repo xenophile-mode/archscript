@@ -150,6 +150,9 @@ cp ~/dotfiles/home/bash/.bash_profile ~
 #Configure .xinitrc
 cp ~/dotfiles/home/xinitrc/.xinitrc ~
 
+#Configure kakoune
+sudo cp ~/dotfiles/home/kak/kakrc ~/.config/kak
+
 #Run pywal
 cd
 cp ~/dotfiles/papes/Wallpaper13.jpg ~
