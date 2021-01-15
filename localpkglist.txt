@@ -25,6 +25,7 @@ rsmixer
 rtorrent-ps
 sam-git
 sandy-git
+sc-im
 sic
 soulseekqt
 termpub
