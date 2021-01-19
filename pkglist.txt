@@ -35,6 +35,7 @@ fff
 figlet
 file
 filesystem
+finch
 findutils
 firefox
 fish
@@ -99,6 +100,7 @@ mpv
 nano
 ncmpcpp
 nedit
+neofetch
 net-tools
 network-manager-applet
 networkmanager
@@ -131,6 +133,7 @@ radare2
 ranger
 ristretto
 rxvt-unicode
+screenfetch
 screenkey
 sed
 shadow

@@ -1,5 +1,7 @@
 aconfmgr-git
+archfetch
 auracle-git
+aurafetch-git
 balena-etcher
 bashmount
 brave-bin
@@ -15,9 +17,11 @@ hikari
 ii
 lemonbar-git
 ly
+neix-git
 nyxt-browser-git
 pacaur
 peco
+pfetch-git
 pick
 pmenu
 ponymix-git
@@ -30,6 +34,7 @@ sic
 soulseekqt
 termpub
 transset-df
+ufetch-git
 unetbootin
 vile
 wily
