@@ -153,6 +153,7 @@ thunar-volman
 tig
 tipp10
 tk
+tmux
 tree
 ttf-dejavu
 ttf-ibm-plex

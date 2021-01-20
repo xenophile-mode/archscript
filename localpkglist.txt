@@ -1,3 +1,4 @@
+abduco-git
 aconfmgr-git
 archfetch
 auracle-git
@@ -7,6 +8,7 @@ bashmount
 brave-bin
 buku
 castor-git
+cwm
 emptty-git
 epr-git
 figlet-fonts
