@@ -1,5 +1,4 @@
 3270-fonts
-abduco-git
 aconfmgr-git
 archfetch
 auracle-git
