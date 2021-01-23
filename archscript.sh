@@ -99,6 +99,9 @@ sudo systemctl enable haveged
 
 ####CONFIGURE SYSTEM/SOFTWARE####
 
+#Configure fonts
+sudo cp ~/dotfiles/root/fonts/ScreenMedium.ttf /usr/share/fonts/TTF/
+
 #Configure picom
 cp ~/dotfiles/home/picom/.config/picom.conf ~/.config
 
@@ -128,8 +131,6 @@ cp ~/dotfiles/home/.moc/config ~/.moc
 #Configure xterm
 cp ~/dotfiles/home/Xresources/.Xresources ~
 xrdb -merge .Xresources
-
-#Configure text editors
 
 #Configure Grub
 sudo cp ~/dotfiles/root/grub/etc/default/grub /etc/default
@@ -172,6 +173,9 @@ wal -i Wallpaper17.png
 
 #Configure termite
 cp ~/dotfiles/home/termite/.config/termite/config ~/.config/termite
+
+#Configure cwm
+cp ~/dotfiles/home/cwm/.cwmrc ~
 
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
