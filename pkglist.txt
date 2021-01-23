@@ -19,8 +19,8 @@ cpupower
 dash
 dhcpcd
 dialog
+dina-font
 dosfstools
-dvtm
 e2fsprogs
 ed
 efibootmgr
