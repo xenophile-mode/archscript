@@ -178,6 +178,9 @@ cp ~/dotfiles/home/cwm/.cwmrc ~
 #Copy pl.sh to home directory
 cp ~/archscript/pl.sh ~
 
+#Configure mpv
+cp ~/dotfiles/home/mpv/mpv.conf ~/.config/mpv/
+
 echo '###Finished!###'
 
 exec bash
