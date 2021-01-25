@@ -10,6 +10,7 @@ bdf-unifont
 bemenu
 binutils
 bison
+broot
 btrfs-progs
 bzip2
 chromium

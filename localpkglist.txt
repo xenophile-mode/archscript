@@ -24,18 +24,21 @@ ly
 neix-git
 nyxt-browser-git
 pacaur
+paru
 peco
 pfetch-git
 pick
 pmenu
 ponymix-git
 profont-otb
+proggyfonts
 rsmixer
 rtorrent-ps
 sam-git
 sandy-git
 sc-im
 scientifica-bdf
+searx
 sic
 siji
 soulseekqt
@@ -47,4 +50,3 @@ vile
 wily
 windscribe-cli
 xsettingsd-git
-yay
