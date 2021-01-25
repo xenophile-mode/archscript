@@ -2,8 +2,6 @@
 #Bash script to install packages and configure a new system.
 
 
-
-
 ####UPDATE AND INSTALL SOFTWARE####
 
 #Move to home and add pkglist files
@@ -19,16 +17,16 @@ sudo pacman -Syyu
 echo '###Installing Packages from pkglist..'
 sudo pacman -S --needed $(comm -12 <(pacman -Slq|sort) <(sort pkglist.txt) )
 
-#Install yay
-echo '###Installing yay..'
+#Install paru
+echo '###Installing paru..'
 sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 cd
 
 #Install packages from localpkglist
-yay -S --needed --noconfirm - < ~/localpkglist.txt
+paru -S --needed --noconfirm - < ~/localpkglist.txt
 
 #Clone my dotfiles repo
 cd

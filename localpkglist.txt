@@ -6,7 +6,6 @@ aurafetch-git
 balena-etcher
 bashmount
 brave-bin
-buku
 castor-git
 cozette-otb
 cwm
