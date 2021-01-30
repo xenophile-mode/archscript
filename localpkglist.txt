@@ -6,6 +6,7 @@ aurafetch-git
 balena-etcher
 bashmount
 brave-bin
+castero-git
 castor-git
 cozette-otb
 cwm
@@ -23,17 +24,18 @@ lemonbar-git
 ly
 neix-git
 nyxt-browser-git
+opendoas-sudo
 pacaur
 paru
 peco
 pfetch-git
 pick
+pipe-viewer-git
 pmenu
 ponymix-git
 profont-otb
 proggyfonts
 rsmixer
-rtorrent-ps
 sam-git
 sandy-git
 sc-im
@@ -42,6 +44,8 @@ searx
 sic
 siji
 soulseekqt
+straw-viewer-git
+surfraw-git
 termpub
 transset-df
 ufetch-git
@@ -49,4 +53,5 @@ unetbootin
 vile
 wily
 windscribe-cli
+wtfutil
 xsettingsd-git

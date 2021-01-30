@@ -111,6 +111,7 @@ noto-fonts-cjk
 ntfs-3g
 obconf
 openbox
+opendoas
 os-prober
 pacman
 pantheon-music
@@ -134,6 +135,7 @@ qutebrowser
 radare2
 ranger
 ristretto
+rtorrent
 rxvt-unicode
 screenfetch
 screenkey
@@ -142,7 +144,6 @@ shadow
 slock
 stalonetray
 stow
-sudo
 sysstat
 systemd
 systemd-sysvcompat
@@ -226,6 +227,7 @@ xscreensaver
 xsel
 xterm
 xz
+youtube-dl
 youtube-viewer
 zsh
 zsh-syntax-highlighting
