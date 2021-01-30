@@ -187,6 +187,9 @@ cp ~/dotfiles/home/cmus/autosave ~/.config/cmus
 #Configure hosts
 sudo cp ~/dotfiles/root/hosts/hosts /etc
 
+#Set default browser
+xdg-settings set default-web-browser qutebrowser.desktop
+
 echo '###Finished!###'
 
 exec bash
