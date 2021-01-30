@@ -179,7 +179,13 @@ cp ~/dotfiles/home/cwm/.cwmrc ~
 cp ~/archscript/pl.sh ~
 
 #Configure mpv
-cp ~/dotfiles/home/mpv/mpv.conf ~/.config/mpv/
+cp ~/dotfiles/home/mpv/mpv.conf ~/.config/mpv
+
+#Configure cmus
+cp ~/dotfiles/home/cmus/autosave ~/.config/cmus
+
+#Configure hosts
+sudo cp ~/dotfiles/root/hosts/hosts /etc
 
 echo '###Finished!###'
 
