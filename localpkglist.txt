@@ -23,7 +23,7 @@ ii
 lemonbar-git
 ly
 neix-git
-nyxt-browser-git
+nyxt
 opendoas-sudo
 pacaur
 paru
@@ -37,6 +37,7 @@ profont-otb
 proggyfonts
 rsmixer
 sam-git
+sampler
 sandy-git
 sc-im
 scientifica-bdf
@@ -53,5 +54,5 @@ unetbootin
 vile
 wily
 windscribe-cli
-wtfutil
+wtfutil-bin
 xsettingsd-git

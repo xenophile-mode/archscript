@@ -19,6 +19,7 @@ cmus
 coreutils
 cpupower
 dash
+deluge-gtk
 dhcpcd
 dialog
 dina-font
