@@ -22,6 +22,7 @@ ibm-fonts
 ii
 lemonbar-git
 ly
+mimi-git
 neix-git
 nyxt
 opendoas-sudo
@@ -48,11 +49,13 @@ soulseekqt
 straw-viewer-git
 surfraw-git
 termpub
+torrentflix
 transset-df
+tuir
+turses-git
 ufetch-git
 unetbootin
 vile
 wily
 windscribe-cli
-wtfutil-bin
 xsettingsd-git

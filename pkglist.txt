@@ -58,6 +58,7 @@ gnome-packagekit
 grep
 groff
 grub
+gst-plugin-pipewire
 guake
 gvfs
 gvfs-mtp
@@ -137,6 +138,7 @@ radare2
 ranger
 ristretto
 rtorrent
+ruby
 rxvt-unicode
 screenfetch
 screenkey
@@ -145,6 +147,7 @@ shadow
 slock
 stalonetray
 stow
+sxhkd
 sysstat
 systemd
 systemd-sysvcompat
@@ -230,5 +233,7 @@ xterm
 xz
 youtube-dl
 youtube-viewer
+zathura
+zathura-pdf-mupdf
 zsh
 zsh-syntax-highlighting
