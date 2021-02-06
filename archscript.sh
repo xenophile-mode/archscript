@@ -187,8 +187,8 @@ cp ~/dotfiles/home/cmus/autosave ~/.config/cmus
 #Configure hosts
 sudo cp ~/dotfiles/root/hosts/hosts /etc
 
-#Set default browser
-xdg-settings set default-web-browser qutebrowser.desktop
+#Configure mimi for default applications
+cp ~/dotfiles/home/mimi/mime.conf ~/.config/mimi
 
 echo '###Finished!###'
 
