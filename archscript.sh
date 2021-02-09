@@ -53,12 +53,6 @@ sudo make install
 cd
 qutebrowser &
 
-#Install Doom Emacs
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-~/.emacs.d/bin/doom install
-~/.emacs.d/bin/doom upgrade
-~/.emacs.d/bin/doom sync
-
 #Install mcross browser
 pip install --user mcross
 
