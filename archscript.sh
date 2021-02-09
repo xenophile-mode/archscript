@@ -216,6 +216,11 @@ cp ~/dotfiles/home/mimi/mime.conf ~/.config/mimi
 #Configure kbshortcut-scripts
 cp ~/dotfiles/home/kbshortcut-scripts ~
 
+#Configure bevelbar and infofeld
+cp ~/dotfiles/home/bevelbar-scripts/katriawm-launch ~
+cp ~/dotfiles/home/bevelbar-scripts/bevelbar-launch-status-bars ~
+
+
 echo '###Finished!###'
 
 exec bash
