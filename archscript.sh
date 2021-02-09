@@ -89,6 +89,11 @@ cd ~/.local/src/infofeld2
 make
 sudo make install
 
+#Install fonts
+sudo cp ~/dotfiles/home/fonts/ScreenBold.ttf /usr/share/fonts/TTF
+sudo cp ~/dotfiles/home/fonts/ScreenMedium.ttf /usr/share/fonts/TTF
+
+
 ####ENABLE SERVICES####
 
 #Enable dwm in display manager
