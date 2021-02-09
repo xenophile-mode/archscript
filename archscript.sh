@@ -190,6 +190,9 @@ sudo cp ~/dotfiles/root/hosts/hosts /etc
 #Configure mimi for default applications
 cp ~/dotfiles/home/mimi/mime.conf ~/.config/mimi
 
+#Configure kbshortcut-scripts
+cp ~/dotfiles/home/kbshortcut-scripts ~
+
 echo '###Finished!###'
 
 exec bash
