@@ -5,11 +5,13 @@ auracle-git
 aurafetch-git
 balena-etcher
 bashmount
+bdf-creep
 brave-bin
 castero-git
 castor-git
 cozette-otb
 cwm
+dmenufm
 emptty-git
 epr-git
 figlet-fonts
@@ -36,6 +38,7 @@ pmenu
 ponymix-git
 profont-otb
 proggyfonts
+pulseeffects-legacy
 rsmixer
 sam-git
 sampler
@@ -51,6 +54,7 @@ surfraw-git
 termpub
 torrentflix
 transset-df
+ttf-homecomputer-workbench
 tuir
 turses-git
 ufetch-git
@@ -58,4 +62,5 @@ unetbootin
 vile
 wily
 windscribe-cli
+xcolor
 xsettingsd-git
