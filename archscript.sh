@@ -68,8 +68,26 @@ cd dwmbar
 sudo ./install.sh
 cd
 
-
-
+#Install katriawm, bevelbar, infofeld, and nhkd
+git clone https://github.com/xenophile-mode/nhkd.git ~/.local/src/nhkd
+git clone https://github.com/xenophile-mode/katriawm.git ~/.local/src/katriawm
+git clone https://github.com/xenophile-mode/bevelbar.git ~/.local/src/bevelbar
+git clone https://www.uninformativ.de/git/infofeld2.git ~/.local/src/infofeld2
+cd ~/.local/src/nhkd
+make
+sudo make install
+cd
+cd ~/.local/src/katriawm/src
+make
+sudo make install
+cd
+cd ~/.local/src/bevelbar
+make
+sudo make install
+cd
+cd ~/.local/src/infofeld2
+make
+sudo make install
 
 ####ENABLE SERVICES####
 
