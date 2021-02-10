@@ -22,7 +22,6 @@ dash
 deluge-gtk
 dhcpcd
 dialog
-dina-font
 dosfstools
 e2fsprogs
 ed
@@ -126,6 +125,7 @@ perl-file-mimeinfo
 picom
 pipewire-alsa
 pkgconf
+plan9port
 polkit-gnome
 procps-ng
 psmisc

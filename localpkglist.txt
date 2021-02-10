@@ -39,6 +39,8 @@ ponymix-git
 profont-otb
 proggyfonts
 pulseeffects-legacy
+python-isit
+readability-cli
 rsmixer
 sam-git
 sampler
@@ -48,6 +50,7 @@ scientifica-bdf
 searx
 sic
 siji
+snownews
 soulseekqt
 straw-viewer-git
 surfraw-git
