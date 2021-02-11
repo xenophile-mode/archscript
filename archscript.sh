@@ -18,15 +18,15 @@ echo '###Installing Packages from pkglist..'
 sudo pacman -S --needed $(comm -12 <(pacman -Slq|sort) <(sort pkglist.txt) )
 
 #Install paru
-echo '###Installing paru..'
+echo '###Installing yay..'
 sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/paru.git
-cd paru
+git clone https://aur.archlinux.org/yay.git
+cd yay
 makepkg -si
 cd
 
 #Install packages from localpkglist
-paru -S --needed --noconfirm - < ~/localpkglist.txt
+yay -S --needed - < ~/localpkglist.txt
 
 #Clone my dotfiles repo
 cd
