@@ -29,7 +29,6 @@ neix-git
 nyxt
 opendoas-sudo
 pacaur
-paru
 peco
 pfetch-git
 pick
@@ -67,3 +66,4 @@ wily
 windscribe-cli
 xcolor
 xsettingsd-git
+yay

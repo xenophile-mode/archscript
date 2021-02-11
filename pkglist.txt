@@ -13,6 +13,7 @@ bison
 broot
 btrfs-progs
 bzip2
+canto-curses
 chromium
 chrony
 cmus
