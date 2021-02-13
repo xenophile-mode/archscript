@@ -202,6 +202,7 @@ cp ~/archscript/pl.sh ~
 cp ~/dotfiles/home/mpv/mpv.conf ~/.config/mpv
 
 #Configure cmus
+mkdir ~/.config/cmus
 cp ~/dotfiles/home/cmus/autosave ~/.config/cmus
 
 #Configure hosts
