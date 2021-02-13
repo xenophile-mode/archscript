@@ -24,7 +24,6 @@ ibm-fonts
 ii
 lemonbar-git
 ly
-mimi-git
 neix-git
 nyxt
 opendoas-sudo
@@ -65,5 +64,6 @@ vile
 wily
 windscribe-cli
 xcolor
+xdg-utils
 xsettingsd-git
 yay
