@@ -9,6 +9,9 @@ cd
 cp ~/archscript/pkglist.txt ~ 	
 cp ~/archscript/localpkglist.txt ~
 
+#Configure doas
+sudo cp ~/dotfiles/root/doas/doas.conf /etc
+
 #Update system
 echo '###Updating System..'
 sudo pacman -Syyu
