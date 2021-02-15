@@ -102,6 +102,7 @@ mg
 moc
 most
 mpv
+mutt
 nano
 ncmpcpp
 nedit
@@ -150,6 +151,7 @@ shadow
 slock
 stalonetray
 stow
+sudo
 sxhkd
 sysstat
 systemd
