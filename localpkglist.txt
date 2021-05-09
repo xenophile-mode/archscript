@@ -52,6 +52,7 @@ proggyfonts
 pulseeffects-legacy
 python-isit
 quake3
+razergenie-git
 readability-cli
 rsmixer
 sam-git
@@ -76,6 +77,8 @@ turses-git
 ufetch-git
 unetbootin
 velox-git
+via-bin
+vial-appimage
 vile
 wdisplays-git
 wily

@@ -43,6 +43,7 @@ finch
 findutils
 firefox
 fish
+flameshot
 flex
 fvwm
 fzf
@@ -50,6 +51,7 @@ fzy
 gawk
 gcc
 gcc-libs
+gedit
 gettext
 gimp
 git
@@ -140,15 +142,18 @@ python-pip
 python-psutil
 python-pywal
 qbittorrent
+qmk
 qutebrowser
 radare2
 ranger
 ristretto
+rofi
 rtorrent
 ruby
 rxvt-unicode
 screenfetch
 screenkey
+scrot
 sed
 shadow
 slock
@@ -160,6 +165,7 @@ sysstat
 systemd
 systemd-sysvcompat
 tar
+teensy-loader-cli
 terminus-font
 termite
 texinfo
@@ -214,6 +220,7 @@ xorg-xcmsdb
 xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xdriinfo
+xorg-xedit
 xorg-xev
 xorg-xfontsel
 xorg-xgamma
